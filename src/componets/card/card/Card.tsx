@@ -9,7 +9,10 @@ type Props = {
 export default function Card({data, ...rest} : Props) {
   return (
     <View style={styles.container}>
-      <Text>{data.name} </Text>
+      <Text>{data.name} 
+     
+
+      </Text>
     </View>
   );
 }
@@ -20,6 +23,7 @@ const styles = StyleSheet.create({
     borderRadius:45,
     backgroundColor: '#6B8E23',
     alignItems: 'center',
+      
    
     padding:100
    

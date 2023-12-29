@@ -5,7 +5,6 @@ export default function Btn(){
        <View>
         <TouchableOpacity style={style.bntTExt}>
             <Text> Botão teste </Text>
-        
         </TouchableOpacity>
        </View> 
     )
@@ -13,7 +12,7 @@ export default function Btn(){
 
 const style = StyleSheet.create({
     bntTExt:{
-        backgroundColor:'red',
+        backgroundColor:'white',
         height: 80,
         borderRadius: 50,
         padding:20,
